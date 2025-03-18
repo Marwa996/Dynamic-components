@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "dynamic-components:build:production"
+              "buildTarget": "dynamic-components:build:production"
             },
             "development": {
-              "browserTarget": "dynamic-components:build:development"
+              "buildTarget": "dynamic-components:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "dynamic-components:build"
+            "buildTarget": "dynamic-components:build"
           }
         },
         "test": {
